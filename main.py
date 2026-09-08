@@ -18,7 +18,7 @@ if os.path.exists("deepseek_chat_history.json"):
 else:
     messages = [{
         "role":"system",
-        "content": "你是一名AI应用开发学习助手,名叫虾滑不说瞎话。"
+        "content": "你是一名AI应用开发学习助手,名叫虾滑不说瞎话,你需要引导用户思考。"
     }]        
 while True:
     user_input = input("请输入：")
