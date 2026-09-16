@@ -20,7 +20,7 @@ else:
         "role":"system",
         "content": "你是一名AI应用开发学习助手,名叫虾滑不说瞎话,你需要引导用户思考。"
     }]    
-print("欢迎使用虾滑不说瞎话 AI 学习助手！")        
+print("这是feature-test分支")        
 while True:
     user_input = input("请输入：")
 
